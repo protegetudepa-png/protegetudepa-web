@@ -1,386 +1,1386 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Protege Tu Depa | Inspección de departamentos nuevos en Lima</title>
-  <meta name="description" content="Inspección técnica de departamentos nuevos en Lima. Detectamos fallas antes de que firmes el acta de entrega y te ayudamos a reclamar a tiempo." />
-  <meta name="keywords" content="inspección de departamentos Lima, recepción de departamento, revisión de acabados, fallas en departamento nuevo, entrega inmobiliaria" />
-  <meta property="og:title" content="Protege Tu Depa | Inspección de departamentos nuevos en Lima" />
-  <meta property="og:description" content="Recibe tu departamento con respaldo técnico. Detectamos observaciones antes de que firmes la conformidad." />
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="es_PE" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Protege Tu Depa",
-      "description": "Inspección técnica de departamentos nuevos en Lima antes de la firma del acta de entrega.",
-      "areaServed": "Lima, Perú",
-      "telephone": "+51 999 999 999",
-      "email": "hola@protegetudepa.pe",
-      "url": "https://www.protegetudepa.pe",
-      "serviceType": "Inspección de departamentos nuevos"
-    }
-  </script>
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav">
-      <a href="#inicio" class="brand" aria-label="Protege Tu Depa inicio">
-        <img src="logo-protege-tu-depa.png" alt="Logo Protege Tu Depa" class="brand-logo" />
-        <div class="brand-text">
-          <strong>Protege Tu Depa</strong>
-          <span>Inspección de departamentos en Lima</span>
+<!doctype html>
+<html lang="es" id="top">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Inspección de entrega de departamentos en Lima | Protege tu Depa</title>
+    <meta
+      name="description"
+      content="No firmes la entrega de tu departamento sin respaldo técnico. En Protege tu Depa revisamos acabados, instalaciones, humedad, metrados y observaciones para ayudarte a proteger tu inversión en Lima."
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --color-brand-blue: #203362;
+        --color-brand-blue-dark: #172845;
+        --color-whatsapp: #25D366;
+        --color-base-bg: #F9F9F9;
+        --color-text-main: #121212;
+        --color-text-muted: #5E6A75;
+        --color-border-soft: #D9E1E7;
+        --color-surface-soft: #ECF0F1;
+
+        --font-heading: "Manrope", sans-serif;
+        --font-body: "Inter", sans-serif;
+      }
+
+      @layer base {
+        html {
+          scroll-behavior: smooth;
+        }
+
+        body {
+          font-family: var(--font-body);
+          background-color: var(--color-base-bg);
+          color: var(--color-text-main);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+          font-family: var(--font-heading);
+        }
+      }
+
+      @layer components {
+        .btn-primary {
+          @apply inline-flex items-center justify-center gap-2 rounded-[14px] bg-brand-blue px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition duration-200 hover:bg-brand-blue-dark;
+        }
+
+        .btn-whatsapp {
+          @apply inline-flex items-center justify-center gap-2 rounded-[14px] bg-whatsapp px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition duration-200 hover:brightness-95;
+        }
+
+        .btn-secondary {
+          @apply inline-flex items-center justify-center gap-2 rounded-[14px] border border-brand-blue px-6 py-3.5 text-sm font-semibold text-brand-blue transition duration-200 hover:bg-white;
+        }
+
+        .trust-pill {
+          @apply rounded-full border border-border-soft bg-white px-3 py-2 text-xs font-medium text-text-muted;
+        }
+
+        .mobile-nav-link {
+          @apply block rounded-xl px-4 py-3 text-sm font-semibold text-brand-blue transition hover:bg-base-bg;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="bg-base-bg">
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 border-b border-border-soft/70 bg-base-bg/90 backdrop-blur">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <!-- Logo -->
+        <a href="#top" class="flex items-center gap-3">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-brand-blue text-white shadow-sm">
+            <span class="font-heading text-base font-extrabold tracking-wide">PTD</span>
+          </div>
+          <div class="leading-tight">
+            <p class="font-heading text-base font-extrabold text-brand-blue sm:text-lg">
+              Protege tu Depa
+            </p>
+            <p class="text-xs font-medium text-text-muted sm:text-sm">
+              Inspección técnica de entrega
+            </p>
+          </div>
+        </a>
+
+        <!-- Desktop nav -->
+        <nav class="hidden items-center gap-8 lg:flex">
+          <a href="#top" class="text-sm font-semibold text-brand-blue">Inicio</a>
+          <a href="#servicio" class="text-sm font-medium text-text-muted transition hover:text-brand-blue">Servicio</a>
+          <a href="#como-funciona" class="text-sm font-medium text-text-muted transition hover:text-brand-blue">Cómo funciona</a>
+          <a href="#hallazgos" class="text-sm font-medium text-text-muted transition hover:text-brand-blue">Hallazgos</a>
+          <a href="#nosotros" class="text-sm font-medium text-text-muted transition hover:text-brand-blue">Nosotros</a>
+          <a href="#faq" class="text-sm font-medium text-text-muted transition hover:text-brand-blue">FAQ</a>
+          <a href="#contacto" class="text-sm font-medium text-text-muted transition hover:text-brand-blue">Contacto</a>
+        </nav>
+
+        <!-- Desktop CTA -->
+        <div class="hidden lg:block">
+          <a href="https://wa.me/51999999999" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M19.05 4.91A9.82 9.82 0 0 0 12.07 2C6.65 2 2.24 6.4 2.24 11.82c0 1.74.45 3.44 1.31 4.94L2 22l5.39-1.41a9.78 9.78 0 0 0 4.68 1.19h.01c5.42 0 9.82-4.4 9.82-9.82a9.78 9.78 0 0 0-2.85-7.05Zm-6.98 15.2h-.01a8.16 8.16 0 0 1-4.16-1.14l-.3-.18-3.2.84.86-3.12-.2-.32a8.18 8.18 0 0 1-1.26-4.37c0-4.51 3.67-8.18 8.19-8.18 2.18 0 4.22.85 5.77 2.4a8.11 8.11 0 0 1 2.39 5.78c0 4.51-3.68 8.19-8.18 8.19Zm4.49-6.13c-.25-.13-1.47-.72-1.7-.8-.23-.08-.39-.13-.55.13-.16.25-.63.8-.77.96-.14.17-.29.19-.54.07-.25-.13-1.04-.38-1.98-1.22-.73-.65-1.22-1.45-1.36-1.69-.14-.25-.01-.38.11-.5.11-.11.25-.29.38-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.55-1.33-.76-1.83-.2-.47-.4-.41-.55-.42h-.47c-.17 0-.43.06-.65.31-.22.25-.86.84-.86 2.05 0 1.2.88 2.36 1 2.53.13.17 1.73 2.65 4.18 3.71.58.25 1.03.4 1.39.52.58.18 1.11.15 1.53.09.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.22-.16-.47-.29Z"/>
+            </svg>
+            WhatsApp
+          </a>
         </div>
-      </a>
 
-      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+        <!-- Mobile menu button -->
+        <button
+          id="mobileMenuButton"
+          type="button"
+          class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-border-soft bg-white text-brand-blue lg:hidden"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+          <svg id="menuOpenIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+          <svg id="menuCloseIcon" xmlns="http://www.w3.org/2000/svg" class="hidden h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" d="M6 6l12 12M18 6 6 18" />
+          </svg>
+        </button>
+      </div>
 
-      <nav class="nav-links" id="mainNav">
-        <a href="#servicios">Servicios</a>
-        <a href="#proceso">Cómo trabajamos</a>
-        <a href="#cobertura">Cobertura</a>
-        <a href="#faq">Preguntas</a>
-        <a href="#contacto">Contacto</a>
-        <a class="btn btn-primary nav-cta" href="https://wa.me/51999999999?text=Hola%2C%20quiero%20cotizar%20una%20inspecci%C3%B3n%20de%20departamento" target="_blank" rel="noopener">Cotizar</a>
-      </nav>
-    </div>
-  </header>
+      <!-- Mobile menu -->
+      <div id="mobileMenu" class="hidden border-t border-border-soft bg-white lg:hidden">
+        <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6">
+          <nav class="space-y-2">
+            <a href="#top" class="mobile-nav-link">Inicio</a>
+            <a href="#servicio" class="mobile-nav-link">Servicio</a>
+            <a href="#como-funciona" class="mobile-nav-link">Cómo funciona</a>
+            <a href="#hallazgos" class="mobile-nav-link">Hallazgos</a>
+            <a href="#nosotros" class="mobile-nav-link">Nosotros</a>
+            <a href="#faq" class="mobile-nav-link">FAQ</a>
+            <a href="#contacto" class="mobile-nav-link">Contacto</a>
+          </nav>
 
-  <main>
-    <section class="hero section" id="inicio">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="tag">Inspección técnica antes de firmar el acta</div>
-          <h1>Recibe tu departamento nuevo con respaldo técnico, no solo con buena fe.</h1>
-          <p class="lead">
-            Detectamos fallas en acabados, instalaciones y detalles constructivos antes de que firmes la conformidad.
-            Te entregamos una revisión clara para que reclames a tiempo a la inmobiliaria y evites asumir problemas que no te corresponden.
-          </p>
+          <div class="mt-4">
+            <a href="https://wa.me/51999999999" class="btn-whatsapp w-full" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19.05 4.91A9.82 9.82 0 0 0 12.07 2C6.65 2 2.24 6.4 2.24 11.82c0 1.74.45 3.44 1.31 4.94L2 22l5.39-1.41a9.78 9.78 0 0 0 4.68 1.19h.01c5.42 0 9.82-4.4 9.82-9.82a9.78 9.78 0 0 0-2.85-7.05Zm-6.98 15.2h-.01a8.16 8.16 0 0 1-4.16-1.14l-.3-.18-3.2.84.86-3.12-.2-.32a8.18 8.18 0 0 1-1.26-4.37c0-4.51 3.67-8.18 8.19-8.18 2.18 0 4.22.85 5.77 2.4a8.11 8.11 0 0 1 2.39 5.78c0 4.51-3.68 8.19-8.18 8.19Zm4.49-6.13c-.25-.13-1.47-.72-1.7-.8-.23-.08-.39-.13-.55.13-.16.25-.63.8-.77.96-.14.17-.29.19-.54.07-.25-.13-1.04-.38-1.98-1.22-.73-.65-1.22-1.45-1.36-1.69-.14-.25-.01-.38.11-.5.11-.11.25-.29.38-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.55-1.33-.76-1.83-.2-.47-.4-.41-.55-.42h-.47c-.17 0-.43.06-.65.31-.22.25-.86.84-.86 2.05 0 1.2.88 2.36 1 2.53.13.17 1.73 2.65 4.18 3.71.58.25 1.03.4 1.39.52.58.18 1.11.15 1.53.09.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.22-.16-.47-.29Z"/>
+              </svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
 
-          <div class="btn-row">
-            <a class="btn btn-primary" href="https://wa.me/51999999999?text=Hola%2C%20quiero%20cotizar%20una%20inspecci%C3%B3n%20de%20departamento" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
-            <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
+    <main>
+      <!-- SECTION 1: HERO -->
+      <section class="relative overflow-hidden">
+        <div class="mx-auto grid max-w-7xl items-center gap-12 px-4 py-14 sm:px-6 sm:py-18 lg:grid-cols-2 lg:px-8 lg:py-24">
+          <!-- Text -->
+          <div class="order-2 lg:order-1">
+            <p class="mb-4 inline-flex items-center rounded-full border border-border-soft bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-brand-blue">
+              Inspección técnica para entrega de departamentos en Lima
+            </p>
+
+            <h1 class="max-w-2xl text-4xl font-extrabold leading-tight text-brand-blue sm:text-5xl lg:text-6xl">
+              No firmes la entrega de tu departamento sin respaldo técnico
+            </h1>
+
+            <p class="mt-5 max-w-2xl text-base leading-7 text-text-muted sm:text-lg">
+              En <span class="font-semibold text-text-main">Protege tu Depa</span> te acompañamos
+              para detectar observaciones, entregas deficientes, posibles vicios ocultos y diferencias
+              entre lo que pagaste y lo que realmente estás recibiendo.
+            </p>
+
+            <p class="mt-3 max-w-2xl text-sm leading-6 text-text-muted sm:text-base">
+              Ingeniería civil aplicada a proteger tu inversión antes de firmar el acta de conformidad.
+            </p>
+
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+              <a href="#contacto" class="btn-primary">
+                Quiero evaluar mi entrega
+              </a>
+
+              <a href="https://wa.me/51999999999" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M19.05 4.91A9.82 9.82 0 0 0 12.07 2C6.65 2 2.24 6.4 2.24 11.82c0 1.74.45 3.44 1.31 4.94L2 22l5.39-1.41a9.78 9.78 0 0 0 4.68 1.19h.01c5.42 0 9.82-4.4 9.82-9.82a9.78 9.78 0 0 0-2.85-7.05Zm-6.98 15.2h-.01a8.16 8.16 0 0 1-4.16-1.14l-.3-.18-3.2.84.86-3.12-.2-.32a8.18 8.18 0 0 1-1.26-4.37c0-4.51 3.67-8.18 8.19-8.18 2.18 0 4.22.85 5.77 2.4a8.11 8.11 0 0 1 2.39 5.78c0 4.51-3.68 8.19-8.18 8.19Zm4.49-6.13c-.25-.13-1.47-.72-1.7-.8-.23-.08-.39-.13-.55.13-.16.25-.63.8-.77.96-.14.17-.29.19-.54.07-.25-.13-1.04-.38-1.98-1.22-.73-.65-1.22-1.45-1.36-1.69-.14-.25-.01-.38.11-.5.11-.11.25-.29.38-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.55-1.33-.76-1.83-.2-.47-.4-.41-.55-.42h-.47c-.17 0-.43.06-.65.31-.22.25-.86.84-.86 2.05 0 1.2.88 2.36 1 2.53.13.17 1.73 2.65 4.18 3.71.58.25 1.03.4 1.39.52.58.18 1.11.15 1.53.09.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.22-.16-.47-.29Z"/>
+                </svg>
+                WhatsApp
+              </a>
+            </div>
+
+            <p class="mt-4 text-sm font-medium text-text-muted">
+              ¿Te citaron de un día para otro? Escríbenos ahora para verificar disponibilidad inmediata.
+            </p>
+
+            <div class="mt-8 flex flex-wrap gap-3">
+              <span class="trust-pill">Respaldo técnico real</span>
+              <span class="trust-pill">Observaciones documentadas</span>
+              <span class="trust-pill">Atención en Lima Metropolitana</span>
+            </div>
           </div>
 
-          <div class="trust-row">
-            <article class="trust-item">
-              <strong>Antes de firmar</strong>
-              <p>El momento donde más valor aporta la inspección.</p>
-            </article>
-            <article class="trust-item">
-              <strong>Informe claro</strong>
-              <p>Observaciones ordenadas para reclamar con sustento.</p>
-            </article>
-            <article class="trust-item">
-              <strong>Lima Moderna</strong>
-              <p>Enfoque inicial en distritos con alta demanda potencial.</p>
-            </article>
-          </div>
-        </div>
+          <!-- Image -->
+          <div class="order-1 lg:order-2">
+            <div class="relative">
+              <div class="absolute -inset-4 rounded-[28px] bg-brand-blue/6 blur-2xl"></div>
 
-        <div class="hero-card">
-          <div class="hero-panel">
-            <img src="logo-protege-tu-depa.png" alt="Protege Tu Depa" class="hero-logo" />
-            <div class="hero-panel-box">
-              <strong>Qué revisamos</strong>
-              <p>Pisos, muros, pintura, puertas, ventanas, enchufes, iluminación, grifería, filtraciones, nivelación y detalles visibles de entrega.</p>
+              <div class="relative overflow-hidden rounded-[28px] border border-border-soft bg-white shadow-sm">
+                <img
+                  src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1400&q=80"
+                  alt="Departamento moderno en Lima"
+                  class="h-[320px] w-full object-cover sm:h-[420px] lg:h-[520px]"
+                />
+
+                <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-brand-blue/85 via-brand-blue/35 to-transparent p-6 sm:p-8">
+                  <div class="max-w-md rounded-2xl border border-white/20 bg-white/10 p-4 backdrop-blur-md">
+                    <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/80">
+                      Protección patrimonial
+                    </p>
+                    <p class="mt-2 font-heading text-lg font-extrabold text-white sm:text-xl">
+                      Ingeniería civil aplicada a defender tu inversión antes de firmar
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="absolute -bottom-4 left-4 rounded-2xl border border-border-soft bg-white px-4 py-3 shadow-md sm:left-6">
+                <p class="text-xs font-semibold uppercase tracking-[0.12em] text-brand-blue">
+                  Entrega segura
+                </p>
+                <p class="mt-1 text-sm font-medium text-text-main">
+                  No vayas solo a la entrega
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="tag">La necesidad real que resuelves</div>
-        <h2>Evitas que el comprador reciba defectos que luego tendrá que asumir solo.</h2>
-        <p class="lead">Muchos clientes no saben revisar técnicamente un departamento nuevo. Ven lo superficial, pero no detectan observaciones que después generan gastos, demoras y frustración.</p>
+      <!-- SECTION 2: Franja de Confianza -->
+      <section class="border-y border-border-soft/70 bg-white">
+        <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+          <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+            <div class="flex items-start gap-4 rounded-2xl border border-border-soft bg-base-bg p-5">
+              <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6l7-3z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.5 12.5l1.7 1.7 3.8-3.9"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-heading text-base font-extrabold text-brand-blue">
+                  Respaldo técnico especializado
+                </h3>
+                <p class="mt-1 text-sm leading-6 text-text-muted">
+                  Revisión profesional orientada al comprador, no a la inmobiliaria.
+                </p>
+              </div>
+            </div>
 
-        <div class="grid-3">
-          <article class="card">
-            <div class="icon">🔎</div>
-            <h3>Detectas fallas a tiempo</h3>
-            <p>Identificas observaciones antes de firmar y antes de perder fuerza de reclamo frente a la inmobiliaria.</p>
-          </article>
-          <article class="card">
-            <div class="icon">🧾</div>
-            <h3>Respaldas el reclamo</h3>
-            <p>El cliente recibe observaciones claras, útiles y más ordenadas para pedir correcciones.</p>
-          </article>
-          <article class="card">
-            <div class="icon">🛡️</div>
-            <h3>Proteges la inversión</h3>
-            <p>Una mala recepción puede traducirse en gastos posteriores, tiempo perdido y menor satisfacción con la compra.</p>
-          </article>
+            <div class="flex items-start gap-4 rounded-2xl border border-border-soft bg-base-bg p-5">
+              <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 3.5h6l4 4V20a1 1 0 0 1-1 1H8a2 2 0 0 1-2-2V5.5a2 2 0 0 1 2-2z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 3.5V8h4"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 13h6M9 17h4"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-heading text-base font-extrabold text-brand-blue">
+                  Observaciones con sustento
+                </h3>
+                <p class="mt-1 text-sm leading-6 text-text-muted">
+                  No solo detectamos hallazgos: te ayudamos a documentarlos con criterio.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 rounded-2xl border border-border-soft bg-base-bg p-5">
+              <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V5a4 4 0 1 1 8 0v2"/>
+                  <rect x="5" y="7" width="14" height="12" rx="2" ry="2"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6M12 10v4"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-heading text-base font-extrabold text-brand-blue">
+                  Acompañamiento en la entrega
+                </h3>
+                <p class="mt-1 text-sm leading-6 text-text-muted">
+                  No enfrentas este momento solo ni improvisando frente al proceso.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 rounded-2xl border border-border-soft bg-base-bg p-5">
+              <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7H14.5a3.5 3.5 0 1 1 0 7H6"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-heading text-base font-extrabold text-brand-blue">
+                  Protección de tu inversión
+                </h3>
+                <p class="mt-1 text-sm leading-6 text-text-muted">
+                  Lo que no se observa a tiempo, muchas veces lo termina pagando el propietario.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section section-alt" id="proceso">
-      <div class="container">
-        <div class="tag">Cómo trabajamos</div>
-        <h2>Proceso simple y fácil de entender</h2>
-        <p class="lead">La web debe explicar el flujo rápido para reducir fricción y aumentar conversiones.</p>
+      <!-- SECTION 3: Dolor -->
+      <section class="bg-base-bg">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+          <div class="mx-auto max-w-3xl text-center">
+            <p class="inline-flex items-center rounded-full border border-border-soft bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-brand-blue">
+              Antes de firmar la entrega
+            </p>
 
-        <div class="steps">
-          <article class="step">
-            <span class="step-number">1</span>
-            <h3>Solicitas cotización</h3>
-            <p>Nos compartes proyecto, metraje, distrito y fecha estimada de entrega.</p>
-          </article>
-          <article class="step">
-            <span class="step-number">2</span>
-            <h3>Agendas la visita</h3>
-            <p>Coordinamos el día ideal, preferentemente antes de firmar el acta de conformidad.</p>
-          </article>
-          <article class="step">
-            <span class="step-number">3</span>
-            <h3>Inspeccionamos</h3>
-            <p>Revisamos acabados, instalaciones y condiciones visibles con criterio técnico.</p>
-          </article>
-          <article class="step">
-            <span class="step-number">4</span>
-            <h3>Entregas y reclamas</h3>
-            <p>Usas nuestras observaciones para sustentar correcciones y seguimiento.</p>
-          </article>
+            <h2 class="mt-4 font-heading text-3xl font-extrabold leading-tight text-brand-blue sm:text-4xl lg:text-5xl">
+              Tu departamento puede verse nuevo y aun así venir con fallas que después pagarás tú
+            </h2>
+
+            <p class="mt-5 text-base leading-7 text-text-muted sm:text-lg">
+              La entrega es el momento en el que el comprador llega con emoción y la inmobiliaria llega con
+              su proceso listo. Si no sabes qué observar, qué sustentar y qué dejar documentado, puedes
+              terminar aceptando una entrega deficiente sin darte cuenta.
+            </p>
+          </div>
+
+          <div class="mt-10 grid gap-6 lg:mt-12 lg:grid-cols-2">
+            <div class="rounded-[24px] border border-border-soft bg-white p-6 shadow-sm sm:p-8">
+              <div class="flex items-center gap-3">
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-surface-soft text-brand-blue">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 20h9"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4h9"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 9h18"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 15h18"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-xs font-semibold uppercase tracking-[0.12em] text-text-muted">
+                    Lo que muchas personas creen
+                  </p>
+                  <h3 class="font-heading text-2xl font-extrabold text-brand-blue">
+                    “Después lo veo con calma”
+                  </h3>
+                </div>
+              </div>
+
+              <div class="mt-6 space-y-4">
+                <div class="rounded-2xl border border-border-soft bg-base-bg p-4">
+                  <p class="font-semibold text-text-main">“Si sale algo, lo reporto por garantía.”</p>
+                  <p class="mt-1 text-sm leading-6 text-text-muted">
+                    Se asume que la postventa resolverá todo con la misma facilidad.
+                  </p>
+                </div>
+
+                <div class="rounded-2xl border border-border-soft bg-base-bg p-4">
+                  <p class="font-semibold text-text-main">“Si se ve bien, debe estar bien.”</p>
+                  <p class="mt-1 text-sm leading-6 text-text-muted">
+                    Se confía en una revisión rápida y visual sin criterio técnico suficiente.
+                  </p>
+                </div>
+
+                <div class="rounded-2xl border border-border-soft bg-base-bg p-4">
+                  <p class="font-semibold text-text-main">“Lo que no note hoy lo puedo ver luego.”</p>
+                  <p class="mt-1 text-sm leading-6 text-text-muted">
+                    Se posterga una decisión que en realidad se vuelve más difícil después de firmar.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-[24px] border border-brand-blue/15 bg-brand-blue p-6 text-white shadow-sm sm:p-8">
+              <div class="flex items-center gap-3">
+                <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v4"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 17h.01"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.29 3.86 1.82 18A2 2 0 0 0 3.53 21h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/70">
+                    Lo que realmente pasa
+                  </p>
+                  <h3 class="font-heading text-2xl font-extrabold text-white">
+                    Hay fallas que se sienten recién cuando empiezas a vivirlas
+                  </h3>
+                </div>
+              </div>
+
+              <div class="mt-6 space-y-4">
+                <div class="rounded-2xl border border-white/10 bg-white/8 p-4">
+                  <p class="font-semibold text-white">La postventa sin sustento previo suele desgastar más.</p>
+                  <p class="mt-1 text-sm leading-6 text-white/80">
+                    Si la observación no quedó clara desde el inicio, exigir correcciones pierde fuerza.
+                  </p>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 bg-white/8 p-4">
+                  <p class="font-semibold text-white">Hay observaciones que la inmobiliaria intentará normalizar.</p>
+                  <p class="mt-1 text-sm leading-6 text-white/80">
+                    Lo que hoy te dicen que es “normal”, mañana puede convertirse en molestia o gasto.
+                  </p>
+                </div>
+
+                <div class="rounded-2xl border border-white/10 bg-white/8 p-4">
+                  <p class="font-semibold text-white">Una entrega deficiente puede terminar costándote tiempo y dinero.</p>
+                  <p class="mt-1 text-sm leading-6 text-white/80">
+                    Reparaciones, visitas técnicas, coordinaciones y pérdida de capacidad de presión.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mx-auto mt-8 max-w-3xl text-center lg:mt-10">
+            <p class="text-sm font-medium text-text-muted sm:text-base">
+              Por eso no se trata solo de revisar. Se trata de llegar con criterio técnico a un momento que
+              puede definir cómo empieza tu relación con la postventa.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section">
-      <div class="container split-layout">
-        <article class="card card-large">
-          <div class="tag">Qué incluye la inspección</div>
-          <h2>Checklist técnico orientado a problemas reales de entrega</h2>
-          <ul class="list">
-            <li>Pisos, zócalos, enchapes y nivelación visible</li>
-            <li>Paredes, pintura, fisuras, acabados y encuentros</li>
-            <li>Puertas, chapas, ventanas, cierres y funcionamiento</li>
-            <li>Tomacorrientes, interruptores, luminarias y tablero visible</li>
-            <li>Lavaderos, griferías, duchas, inodoros y fugas visibles</li>
-            <li>Cocina, muebles, tableros, silicona y detalles de instalación</li>
-            <li>Observaciones fotográficas y recomendaciones de reclamo</li>
-          </ul>
-        </article>
+      <!-- SECTION 4: Acta -->
+      <section class="bg-base-bg">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+          <div class="relative overflow-hidden rounded-[28px] bg-brand-blue px-6 py-10 text-white shadow-sm sm:px-10 sm:py-14 lg:px-14 lg:py-16">
+            <div class="absolute -right-20 -top-20 h-56 w-56 rounded-full bg-white/5 blur-2xl"></div>
+            <div class="absolute -bottom-16 -left-12 h-44 w-44 rounded-full bg-white/5 blur-2xl"></div>
 
-        <article class="highlight-box">
-          <div class="tag tag-light">Por qué sí pagan por esto</div>
-          <h2>El cliente no compra “una revisión”. Compra tranquilidad y capacidad de reclamo.</h2>
-          <ul class="list list-light">
-            <li>Evita firmar con defectos no detectados</li>
-            <li>Reduce discusiones subjetivas con la inmobiliaria</li>
-            <li>Aumenta la sensación de control en una compra grande</li>
-            <li>Ayuda a priorizar qué reclamar primero</li>
-            <li>Da una imagen mucho más seria que una revisión informal</li>
-          </ul>
-        </article>
-      </div>
-    </section>
+            <div class="relative grid items-center gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-12">
+              <div>
+                <p class="inline-flex items-center rounded-full border border-white/15 bg-white/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-white/80">
+                  Acta de conformidad
+                </p>
 
-    <section class="section" id="servicios">
-      <div class="container">
-        <div class="tag">Oferta comercial</div>
-        <h2>Servicios que puedes vender desde el inicio</h2>
-        <p class="lead">Estructura simple para no confundir al cliente y para facilitar ventas por WhatsApp.</p>
+                <h2 class="mt-5 font-heading text-3xl font-extrabold leading-tight text-white sm:text-4xl lg:text-5xl">
+                  El acta de entrega no es un trámite más. Es el documento que define qué quedó observado antes de firmar.
+                </h2>
 
-        <div class="service-grid">
-          <article class="service-card">
-            <div class="icon">🏠</div>
-            <h3>Inspección base</h3>
-            <p>Revisión técnica visual del departamento antes de la firma, con hallazgos y observaciones clave.</p>
-            <span class="chip">Paquete de entrada</span>
-          </article>
-          <article class="service-card service-card-featured">
-            <div class="icon">📋</div>
-            <h3>Inspección + informe</h3>
-            <p>Incluye registro fotográfico, clasificación de observaciones y entrega de informe ordenado.</p>
-            <span class="chip">Servicio principal</span>
-          </article>
-          <article class="service-card">
-            <div class="icon">🔁</div>
-            <h3>Reinspección</h3>
-            <p>Volvemos a revisar luego del levantamiento para verificar si realmente corrigieron lo observado.</p>
-            <span class="chip">Upsell natural</span>
-          </article>
+                <p class="mt-5 max-w-2xl text-base leading-7 text-white/80 sm:text-lg">
+                  Una observación comentada pero no registrada pierde fuerza. Una observación bien planteada y documentada
+                  cambia tu posición frente a la postventa y te ayuda a exigir con mayor respaldo.
+                </p>
+              </div>
+
+              <div class="rounded-[24px] border border-white/15 bg-white/10 p-6 backdrop-blur-sm sm:p-8">
+                <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/70">
+                  Mensaje clave
+                </p>
+
+                <h3 class="mt-3 font-heading text-2xl font-extrabold leading-tight text-white sm:text-3xl lg:text-[2rem]">
+                  No firmes el acta sin que nuestras observaciones queden documentadas.
+                </h3>
+
+                <p class="mt-4 text-sm leading-6 text-white/75 sm:text-base">
+                  Es tu única herramienta de presión real ante la postventa. Lo que no queda correctamente observado hoy,
+                  mañana suele ser más difícil de exigir.
+                </p>
+
+                <div class="mt-6">
+                  <a href="#contacto" class="inline-flex items-center justify-center gap-2 rounded-[14px] bg-white px-6 py-3.5 text-sm font-semibold text-brand-blue shadow-sm transition duration-200 hover:bg-surface-soft">
+                    Quiero llegar preparado a mi entrega
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section section-alt" id="cobertura">
-      <div class="container">
-        <div class="tag">Cobertura sugerida</div>
-        <h2>Distritos con mayor lógica comercial para empezar</h2>
-        <p class="lead">Empieza donde hay más proyectos nuevos y clientes más dispuestos a pagar por seguridad y tranquilidad.</p>
+      <!-- SECTION 5: Qué revisamos -->
+      <section class="bg-white" id="servicio">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+          <div class="mx-auto max-w-3xl text-center">
+            <p class="inline-flex items-center rounded-full border border-border-soft bg-base-bg px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-brand-blue">
+              Alcance de la inspección
+            </p>
 
-        <div class="grid-3">
-          <article class="card">
-            <h3>Miraflores · San Isidro · Barranco</h3>
-            <p>Cliente más sensible a calidad, detalle y respaldo profesional.</p>
-          </article>
-          <article class="card">
-            <h3>Surco · Magdalena · Jesús María</h3>
-            <p>Buena combinación entre volumen de proyectos y cliente con capacidad de pago.</p>
-          </article>
-          <article class="card">
-            <h3>Páginas por distrito</h3>
-            <p>Luego puedes duplicar esta base para posicionarte con SEO local en cada zona.</p>
-          </article>
+            <h2 class="mt-4 font-heading text-3xl font-extrabold leading-tight text-brand-blue sm:text-4xl lg:text-5xl">
+              ¿Qué revisamos durante la inspección?
+            </h2>
+
+            <p class="mt-5 text-base leading-7 text-text-muted sm:text-lg">
+              Evaluamos los puntos que más impactan en la calidad real de entrega del inmueble y en tu
+              capacidad de dejar observaciones con criterio antes de firmar.
+            </p>
+          </div>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3 lg:mt-12">
+            <div class="rounded-[24px] border border-border-soft bg-base-bg p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 3h10l3 5-8 13L4 8l3-5z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 3l5 18M17 3l-5 18M4 8h16"/>
+                </svg>
+              </div>
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Acabados
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Revisamos pisos, muros, pintura, enchapes, carpintería, puertas, ventanas y otros
+                elementos visibles que reflejan la verdadera calidad de entrega.
+              </p>
+            </div>
+
+            <div class="rounded-[24px] border border-border-soft bg-base-bg p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/>
+                </svg>
+              </div>
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Eléctricas
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Verificamos el funcionamiento visible de interruptores, enchufes, luminarias y puntos
+                eléctricos accesibles al momento de la entrega.
+              </p>
+            </div>
+
+            <div class="rounded-[24px] border border-border-soft bg-base-bg p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 3v7a5 5 0 0 0 10 0V3"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v6"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 21h6"/>
+                </svg>
+              </div>
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Sanitarias
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Revisamos griferías, desagües, puntos de agua y el funcionamiento visible de los
+                elementos sanitarios accesibles en el inmueble.
+              </p>
+            </div>
+
+            <div class="rounded-[24px] border border-border-soft bg-base-bg p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3s5 5.2 5 9a5 5 0 0 1-10 0c0-3.8 5-9 5-9z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.5 14.5a2.5 2.5 0 0 0 5 0"/>
+                </svg>
+              </div>
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Humedad
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Identificamos señales visibles de humedad, filtración o condiciones que podrían anticipar
+                un problema mayor si no quedan observadas a tiempo.
+              </p>
+            </div>
+
+            <div class="relative rounded-[24px] border border-brand-blue/20 bg-white p-6 shadow-sm ring-1 ring-brand-blue/10 transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/30 sm:p-7">
+              <div class="absolute right-5 top-5 inline-flex items-center rounded-full border border-whatsapp/20 bg-whatsapp/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-whatsapp">
+                Ahorro directo
+              </div>
+
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 21h18"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 16V8"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 16V8"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 6h8"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 18h8"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 10l-4 4"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4 4"/>
+                </svg>
+              </div>
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Metrados
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Verificamos que los m² que pagaste sean los que realmente estás recibiendo. Cuando el área
+                no coincide con lo esperado, no hablamos solo de medidas: hablamos de dinero.
+              </p>
+            </div>
+
+            <div class="rounded-[24px] border border-border-soft bg-base-bg p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 11l3 3L22 4"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+                </svg>
+              </div>
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Observaciones Generales
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Registramos fallas visibles, entregas deficientes y puntos relevantes que deben quedar
+                claramente observados antes de firmar la conformidad.
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-10 text-center lg:mt-12">
+            <a href="#contacto" class="btn-primary">
+              Solicitar revisión por WhatsApp
+            </a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="tag">Prueba social</div>
-        <h2>Testimonios para reforzar confianza</h2>
-        <p class="lead">Cuando ya tengas clientes, cambia estos ejemplos por testimonios reales con nombre, distrito y foto si es posible.</p>
+      <!-- SECTION 6: Diferenciales -->
+      <section class="bg-base-bg">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+          <div class="mx-auto max-w-3xl text-center">
+            <p class="inline-flex items-center rounded-full border border-border-soft bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-brand-blue">
+              Diferenciales
+            </p>
 
-        <div class="testimonial-grid">
-          <article class="testimonial">
-            <div class="stars">★★★★★</div>
-            <p>“Pensé que mi departamento estaba bien hasta que detectaron observaciones que yo no había visto. Eso me ayudó a reclamar antes de firmar.”</p>
-            <div class="author">Cliente de Miraflores</div>
-          </article>
-          <article class="testimonial">
-            <div class="stars">★★★★★</div>
-            <p>“El informe fue claro y útil. La inmobiliaria corrigió varios puntos porque ya estaban bien documentados.”</p>
-            <div class="author">Cliente de Surco</div>
-          </article>
-          <article class="testimonial">
-            <div class="stars">★★★★★</div>
-            <p>“Lo que más valoro es la tranquilidad. En una compra tan grande, tener apoyo técnico sí marca diferencia.”</p>
-            <div class="author">Cliente de San Isidro</div>
-          </article>
+            <h2 class="mt-4 font-heading text-3xl font-extrabold leading-tight text-brand-blue sm:text-4xl lg:text-5xl">
+              ¿Por qué elegir Protege tu Depa?
+            </h2>
+
+            <p class="mt-5 text-base leading-7 text-text-muted sm:text-lg">
+              No entramos a la entrega a “mirar detalles”. Entramos a proteger tu posición como comprador,
+              con criterio técnico, lenguaje claro y enfoque preventivo.
+            </p>
+          </div>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-2 lg:mt-12">
+            <div class="rounded-[24px] border border-border-soft bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6l7-3z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.5 12.5l1.7 1.7 3.8-3.9"/>
+                </svg>
+              </div>
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Estamos del lado del comprador
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Nuestra prioridad no es acelerar la entrega. Es ayudarte a recibir tu departamento con mayor
+                claridad, mejor posición para observar y más protección sobre tu inversión.
+              </p>
+            </div>
+
+            <div class="rounded-[24px] border border-border-soft bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h7"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m15 17 2 2 4-4"/>
+                </svg>
+              </div>
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Hablamos el idioma técnico de la inmobiliaria
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Sabemos cómo se construye, cómo se entrega y cómo muchas observaciones intentan minimizarse
+                frente al cliente. Eso nos permite sostener mejor lo que sí merece ser observado.
+              </p>
+            </div>
+
+            <div class="rounded-[24px] border border-border-soft bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9-9 4.03-9 9 4.03 9 9 9z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l2.5 2.5"/>
+                </svg>
+              </div>
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Nuestra visión es preventiva
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Preferimos detectar y dejar observado hoy lo que mañana podría convertirse en postventa,
+                desgaste, reparaciones o pérdida de capacidad de presión para el propietario.
+              </p>
+            </div>
+
+            <div class="rounded-[24px] border border-brand-blue/15 bg-brand-blue p-6 text-white shadow-sm transition duration-200 hover:-translate-y-0.5 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7H14.5a3.5 3.5 0 1 1 0 7H6"/>
+                </svg>
+              </div>
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-white">
+                Una buena inspección puede ahorrarte mucho más de lo que cuesta
+              </h3>
+              <p class="mt-3 text-sm leading-6 text-white/80 sm:text-base">
+                No se trata de un gasto extra. Se trata de una decisión inteligente para evitar aceptar una
+                entrega deficiente y asumir después problemas que no debieron quedarse contigo.
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section" id="faq">
-      <div class="container">
-        <div class="tag">Preguntas frecuentes</div>
-        <h2>Responde objeciones antes de que te escriban</h2>
-        <div class="faq-grid">
-          <article class="faq-item">
-            <h3>¿Cuándo conviene contratar la inspección?</h3>
-            <p>Idealmente antes de firmar el acta de entrega o conformidad. Ahí el reclamo tiene más fuerza.</p>
-          </article>
-          <article class="faq-item">
-            <h3>¿Esto reemplaza a un ingeniero residente?</h3>
-            <p>No. Es un servicio para el comprador final, enfocado en detectar observaciones y ayudar a reclamar con más criterio.</p>
-          </article>
-          <article class="faq-item">
-            <h3>¿La inmobiliaria acepta el informe?</h3>
-            <p>No siempre como documento formal único, pero sí sirve para ordenar y sustentar observaciones durante el proceso.</p>
-          </article>
-          <article class="faq-item">
-            <h3>¿Cuánto demora la visita?</h3>
-            <p>Depende del metraje y complejidad, pero normalmente es una visita corta y muy enfocada.</p>
-          </article>
+      <!-- SECTION 7: Cómo funciona -->
+      <section class="bg-white" id="como-funciona">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+          <div class="mx-auto max-w-3xl text-center">
+            <p class="inline-flex items-center rounded-full border border-border-soft bg-base-bg px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-brand-blue">
+              Proceso
+            </p>
+
+            <h2 class="mt-4 font-heading text-3xl font-extrabold leading-tight text-brand-blue sm:text-4xl lg:text-5xl">
+              ¿Cómo funciona la inspección?
+            </h2>
+
+            <p class="mt-5 text-base leading-7 text-text-muted sm:text-lg">
+              Un proceso claro para que llegues a la entrega con orden, respaldo técnico y mejor capacidad
+              para observar antes de firmar.
+            </p>
+          </div>
+
+          <div class="relative mt-12 lg:mt-16">
+            <div class="absolute left-[1.45rem] top-0 h-full w-px bg-border-soft lg:hidden"></div>
+            <div class="absolute left-0 right-0 top-6 hidden h-px bg-border-soft lg:block"></div>
+
+            <div class="relative grid gap-8 lg:grid-cols-5 lg:gap-6">
+              <div class="relative pl-14 lg:pl-0 lg:pt-14">
+                <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full border border-brand-blue/15 bg-brand-blue text-sm font-extrabold text-white shadow-sm lg:left-1/2 lg:-translate-x-1/2">
+                  1
+                </div>
+                <div class="rounded-[24px] border border-border-soft bg-base-bg p-5 shadow-sm sm:p-6">
+                  <h3 class="font-heading text-xl font-extrabold text-brand-blue">
+                    Nos escribes
+                  </h3>
+                  <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                    Nos compartes la fecha de entrega, ubicación, metraje y cualquier dato relevante de tu
+                    departamento o proyecto.
+                  </p>
+                </div>
+              </div>
+
+              <div class="relative pl-14 lg:pl-0 lg:pt-14">
+                <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full border border-brand-blue/15 bg-brand-blue text-sm font-extrabold text-white shadow-sm lg:left-1/2 lg:-translate-x-1/2">
+                  2
+                </div>
+                <div class="rounded-[24px] border border-border-soft bg-base-bg p-5 shadow-sm sm:p-6">
+                  <h3 class="font-heading text-xl font-extrabold text-brand-blue">
+                    Evaluamos tu caso
+                  </h3>
+                  <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                    Revisamos tu situación, el nivel de urgencia y la mejor forma de acompañarte según tu
+                    fecha de entrega.
+                  </p>
+                </div>
+              </div>
+
+              <div class="relative pl-14 lg:pl-0 lg:pt-14">
+                <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full border border-brand-blue/15 bg-brand-blue text-sm font-extrabold text-white shadow-sm lg:left-1/2 lg:-translate-x-1/2">
+                  3
+                </div>
+                <div class="rounded-[24px] border border-border-soft bg-base-bg p-5 shadow-sm sm:p-6">
+                  <h3 class="font-heading text-xl font-extrabold text-brand-blue">
+                    Coordinamos
+                  </h3>
+                  <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                    Agendamos la inspección según disponibilidad para que no llegues solo ni improvisando al
+                    momento más delicado del proceso.
+                  </p>
+                </div>
+              </div>
+
+              <div class="relative pl-14 lg:pl-0 lg:pt-14">
+                <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full border border-brand-blue/15 bg-brand-blue text-sm font-extrabold text-white shadow-sm lg:left-1/2 lg:-translate-x-1/2">
+                  4
+                </div>
+                <div class="rounded-[24px] border border-border-soft bg-base-bg p-5 shadow-sm sm:p-6">
+                  <h3 class="font-heading text-xl font-extrabold text-brand-blue">
+                    Inspeccionamos
+                  </h3>
+                  <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                    Revisamos el inmueble contigo, identificando puntos relevantes, entregas deficientes y
+                    observaciones que deben quedar correctamente planteadas.
+                  </p>
+                </div>
+              </div>
+
+              <div class="relative pl-14 lg:pl-0 lg:pt-14">
+                <div class="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full border border-brand-blue/15 bg-brand-blue text-sm font-extrabold text-white shadow-sm lg:left-1/2 lg:-translate-x-1/2">
+                  5
+                </div>
+                <div class="rounded-[24px] border border-brand-blue/15 bg-brand-blue p-5 text-white shadow-sm sm:p-6">
+                  <h3 class="font-heading text-xl font-extrabold text-white">
+                    Recibes sustento técnico
+                  </h3>
+                  <p class="mt-3 text-sm leading-6 text-white/80 sm:text-base">
+                    Llegas con mayor claridad al momento de observar, documentar y tomar decisiones con más
+                    respaldo frente a la inmobiliaria.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-12 text-center lg:mt-16">
+            <a href="#contacto" class="btn-primary">
+              Quiero coordinar mi inspección
+            </a>
+
+            <p class="mt-4 text-sm font-medium text-text-muted sm:text-base">
+              Si tu entrega ya tiene fecha, escríbenos cuanto antes para revisar disponibilidad.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="cta-band">
+      <!-- SECTION 8: Hallazgos -->
+      <section class="bg-base-bg" id="hallazgos">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+          <div class="mx-auto max-w-3xl text-center">
+            <p class="inline-flex items-center rounded-full border border-border-soft bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-brand-blue">
+              Hallazgos frecuentes
+            </p>
+
+            <h2 class="mt-4 font-heading text-3xl font-extrabold leading-tight text-brand-blue sm:text-4xl lg:text-5xl">
+              Lo que hoy parece menor, mañana puede costarte dinero y tiempo
+            </h2>
+
+            <p class="mt-5 text-base leading-7 text-text-muted sm:text-lg">
+              Muchas entregas deficientes se disfrazan de “detalles normales”. El problema es que, si no se
+              detectan y observan a tiempo, después suelen convertirse en postventa, desgaste y gastos que no
+              deberían recaer sobre ti.
+            </p>
+          </div>
+
+          <div class="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4 lg:mt-12">
+            <div class="rounded-[24px] border border-border-soft bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 3h10l3 5-8 13L4 8l3-5z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7 3l5 18M17 3l-5 18M4 8h16"/>
+                </svg>
+              </div>
+
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Acabados deficientes
+              </h3>
+
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Desniveles, remates pobres, enchapes mal ejecutados o detalles de carpintería pueden parecer
+                menores el día de la entrega, pero después afectan la percepción de calidad y abren reclamos
+                que consumen tiempo y energía.
+              </p>
+
+              <div class="mt-5 rounded-2xl border border-border-soft bg-base-bg p-4">
+                <p class="text-xs font-semibold uppercase tracking-[0.12em] text-text-muted">
+                  Consecuencia real
+                </p>
+                <p class="mt-2 text-sm font-semibold text-text-main">
+                  Más coordinaciones con postventa y posibles correcciones que debieron exigirse desde el inicio.
+                </p>
+              </div>
+            </div>
+
+            <div class="rounded-[24px] border border-border-soft bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3s5 5.2 5 9a5 5 0 0 1-10 0c0-3.8 5-9 5-9z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.5 14.5a2.5 2.5 0 0 0 5 0"/>
+                </svg>
+              </div>
+
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Humedad o filtraciones
+              </h3>
+
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Una señal de humedad no atendida a tiempo puede transformarse en deterioro, pérdida de
+                confort y discusiones más complejas con la inmobiliaria cuando el problema ya se manifestó
+                con mayor fuerza.
+              </p>
+
+              <div class="mt-5 rounded-2xl border border-border-soft bg-base-bg p-4">
+                <p class="text-xs font-semibold uppercase tracking-[0.12em] text-text-muted">
+                  Consecuencia real
+                </p>
+                <p class="mt-2 text-sm font-semibold text-text-main">
+                  Reparaciones posteriores, más visitas técnicas y mayor desgaste para el propietario.
+                </p>
+              </div>
+            </div>
+
+            <div class="relative rounded-[24px] border border-brand-blue/20 bg-white p-6 shadow-sm ring-1 ring-brand-blue/10 transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/30 sm:p-7">
+              <div class="absolute right-5 top-5 inline-flex items-center rounded-full border border-whatsapp/20 bg-whatsapp/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-whatsapp">
+                Impacto económico
+              </div>
+
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 21h18"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 16V8"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 16V8"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 6h8"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 18h8"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 10l-4 4"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4 4"/>
+                </svg>
+              </div>
+
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Diferencias en metrados
+              </h3>
+
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                Cuando el área entregada no coincide con lo que pagaste, no estás frente a un simple detalle
+                técnico: estás frente a una diferencia con impacto patrimonial directo.
+              </p>
+
+              <div class="mt-5 rounded-2xl border border-border-soft bg-base-bg p-4">
+                <p class="text-xs font-semibold uppercase tracking-[0.12em] text-text-muted">
+                  Consecuencia real
+                </p>
+                <p class="mt-2 text-sm font-semibold text-text-main">
+                  Aceptar menos área de la esperada implica recibir menos valor por el dinero invertido.
+                </p>
+              </div>
+            </div>
+
+            <div class="rounded-[24px] border border-border-soft bg-white p-6 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-brand-blue/20 sm:p-7">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-blue/8 text-brand-blue">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 3.5h6l4 4V20a1 1 0 0 1-1 1H8a2 2 0 0 1-2-2V5.5a2 2 0 0 1 2-2z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 3.5V8h4"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 13h6M9 17h4"/>
+                </svg>
+              </div>
+
+              <h3 class="mt-5 font-heading text-2xl font-extrabold text-brand-blue">
+                Observaciones mal documentadas
+              </h3>
+
+              <p class="mt-3 text-sm leading-6 text-text-muted sm:text-base">
+                El problema no siempre es solo la falla. Muchas veces es que el hallazgo se comenta, pero no
+                queda bien registrado en el acta, y eso debilita tu capacidad de exigir después.
+              </p>
+
+              <div class="mt-5 rounded-2xl border border-border-soft bg-base-bg p-4">
+                <p class="text-xs font-semibold uppercase tracking-[0.12em] text-text-muted">
+                  Consecuencia real
+                </p>
+                <p class="mt-2 text-sm font-semibold text-text-main">
+                  Más fricción con postventa y menos fuerza para sostener tu reclamo frente a la inmobiliaria.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mx-auto mt-8 max-w-3xl text-center lg:mt-10">
+            <p class="text-sm font-medium text-text-muted sm:text-base">
+              Contratar una inspección no es exagerar. Es evitar que un problema de hoy se convierta en una
+              pérdida de tiempo, dinero o tranquilidad mañana.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 9: Fundador -->
+      <section class="bg-white" id="nosotros">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+          <div class="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14">
+            <div class="order-2 lg:order-1">
+              <div class="relative overflow-hidden rounded-[28px] border border-border-soft bg-base-bg shadow-sm">
+                <img
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1200&q=80"
+                  alt="Foto profesional del fundador de Protege tu Depa"
+                  class="h-[420px] w-full object-cover sm:h-[520px] lg:h-[620px]"
+                />
+
+                <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-brand-blue/90 via-brand-blue/45 to-transparent p-6 sm:p-8">
+                  <div class="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur-sm">
+                    <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/75">
+                      Dirección técnica
+                    </p>
+                    <p class="mt-2 font-heading text-lg font-extrabold text-white sm:text-xl">
+                      Ingeniería civil aplicada a proteger la inversión del comprador
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="order-1 lg:order-2">
+              <p class="inline-flex items-center rounded-full border border-border-soft bg-base-bg px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-brand-blue">
+                Sobre el fundador
+              </p>
+
+              <h2 class="mt-4 font-heading text-3xl font-extrabold leading-tight text-brand-blue sm:text-4xl lg:text-5xl">
+                Un colega del comprador en el momento más delicado de la entrega
+              </h2>
+
+              <p class="mt-5 text-base leading-7 text-text-muted sm:text-lg">
+                Detrás de <span class="font-semibold text-text-main">Protege tu Depa</span> hay un
+                <span class="font-semibold text-text-main">Ingeniero Civil de 33 años</span>,
+                <span class="font-semibold text-text-main">egresado de la Universidad Nacional de Ingeniería (UNI)</span>,
+                con <span class="font-semibold text-text-main">10 años de experiencia</span> en ejecución,
+                supervisión y monitoreo de obras de edificaciones.
+              </p>
+
+              <p class="mt-4 text-base leading-7 text-text-muted sm:text-lg">
+                Eso significa que no hablo desde la teoría ni desde una revisión superficial. Conozco la obra
+                desde adentro, entiendo cómo se construye, cómo se entrega y qué argumentos suelen usarse
+                cuando una observación se intenta minimizar frente al cliente.
+              </p>
+
+              <div class="mt-8 grid gap-4 sm:grid-cols-2">
+                <div class="rounded-2xl border border-border-soft bg-base-bg p-5">
+                  <h3 class="font-heading text-lg font-extrabold text-brand-blue">
+                    Conozco el proceso constructivo real
+                  </h3>
+                  <p class="mt-2 text-sm leading-6 text-text-muted">
+                    La experiencia en obra permite distinguir entre una imperfección menor y una observación
+                    que sí merece sustento técnico.
+                  </p>
+                </div>
+
+                <div class="rounded-2xl border border-border-soft bg-base-bg p-5">
+                  <h3 class="font-heading text-lg font-extrabold text-brand-blue">
+                    Hablo el mismo idioma técnico que la inmobiliaria
+                  </h3>
+                  <p class="mt-2 text-sm leading-6 text-text-muted">
+                    Eso eleva la conversación y te ayuda a no enfrentar la entrega desde la intuición o la duda.
+                  </p>
+                </div>
+              </div>
+
+              <div class="mt-8 rounded-[24px] border border-brand-blue/15 bg-brand-blue p-6 text-white shadow-sm sm:p-7">
+                <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/70">
+                  Enfoque profesional
+                </p>
+                <h3 class="mt-3 font-heading text-2xl font-extrabold text-white">
+                  Mi rol no es confrontar por confrontar. Mi rol es ayudarte a recibir con criterio.
+                </h3>
+                <p class="mt-3 text-sm leading-6 text-white/80 sm:text-base">
+                  Entro a la entrega como un profesional que entiende el lenguaje técnico de la inmobiliaria,
+                  pero siempre del lado del comprador: explicando con claridad, sosteniendo lo que corresponde
+                  y cuidando una inversión que para ti es importante.
+                </p>
+              </div>
+
+              <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+                <a href="#contacto" class="btn-primary">
+                  Quiero hablar sobre mi entrega
+                </a>
+
+                <a href="https://wa.me/51999999999" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M19.05 4.91A9.82 9.82 0 0 0 12.07 2C6.65 2 2.24 6.4 2.24 11.82c0 1.74.45 3.44 1.31 4.94L2 22l5.39-1.41a9.78 9.78 0 0 0 4.68 1.19h.01c5.42 0 9.82-4.4 9.82-9.82a9.78 9.78 0 0 0-2.85-7.05Zm-6.98 15.2h-.01a8.16 8.16 0 0 1-4.16-1.14l-.3-.18-3.2.84.86-3.12-.2-.32a8.18 8.18 0 0 1-1.26-4.37c0-4.51 3.67-8.18 8.19-8.18 2.18 0 4.22.85 5.77 2.4a8.11 8.11 0 0 1 2.39 5.78c0 4.51-3.68 8.19-8.18 8.19Zm4.49-6.13c-.25-.13-1.47-.72-1.7-.8-.23-.08-.39-.13-.55.13-.16.25-.63.8-.77.96-.14.17-.29.19-.54.07-.25-.13-1.04-.38-1.98-1.22-.73-.65-1.22-1.45-1.36-1.69-.14-.25-.01-.38.11-.5.11-.11.25-.29.38-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.55-1.33-.76-1.83-.2-.47-.4-.41-.55-.42h-.47c-.17 0-.43.06-.65.31-.22.25-.86.84-.86 2.05 0 1.2.88 2.36 1 2.53.13.17 1.73 2.65 4.18 3.71.58.25 1.03.4 1.39.52.58.18 1.11.15 1.53.09.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.22-.16-.47-.29Z"/>
+                  </svg>
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 10: FAQ -->
+      <section class="bg-base-bg" id="faq">
+        <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+          <div class="mx-auto max-w-3xl text-center">
+            <p class="inline-flex items-center rounded-full border border-border-soft bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-brand-blue">
+              Preguntas frecuentes
+            </p>
+
+            <h2 class="mt-4 font-heading text-3xl font-extrabold leading-tight text-brand-blue sm:text-4xl lg:text-5xl">
+              Resolvemos las dudas más importantes antes de tu entrega
+            </h2>
+
+            <p class="mt-5 text-base leading-7 text-text-muted sm:text-lg">
+              Estas son las preguntas que más influyen en la decisión de contratar una inspección y llegar con mayor respaldo al momento de firmar.
+            </p>
+          </div>
+
+          <div class="mt-10 space-y-4 lg:mt-12">
+            <div class="faq-item overflow-hidden rounded-[20px] border border-border-soft bg-white shadow-sm">
+              <button type="button" class="faq-trigger flex w-full items-center justify-between gap-4 px-5 py-5 text-left sm:px-6" aria-expanded="false">
+                <span class="font-heading text-lg font-extrabold text-brand-blue sm:text-xl">
+                  ¿Cuándo contratar?
+                </span>
+                <span class="faq-icon flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-base-bg text-brand-blue transition duration-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-content hidden border-t border-border-soft px-5 pb-5 pt-0 sm:px-6">
+                <p class="pt-5 text-sm leading-7 text-text-muted sm:text-base">
+                  Lo ideal es contratar apenas tengas fecha de entrega o cuando ya sepas que la inmobiliaria te citará pronto.
+                  Mientras antes se coordine, mejor podrás llegar preparado y con menor margen de improvisación.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item overflow-hidden rounded-[20px] border border-border-soft bg-white shadow-sm">
+              <button type="button" class="faq-trigger flex w-full items-center justify-between gap-4 px-5 py-5 text-left sm:px-6" aria-expanded="false">
+                <span class="font-heading text-lg font-extrabold text-brand-blue sm:text-xl">
+                  ¿Y si me citaron de un día para otro?
+                </span>
+                <span class="faq-icon flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-base-bg text-brand-blue transition duration-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-content hidden border-t border-border-soft px-5 pb-5 pt-0 sm:px-6">
+                <p class="pt-5 text-sm leading-7 text-text-muted sm:text-base">
+                  Escríbenos de inmediato. En Lima es bastante común que algunas entregas se coordinen con poco tiempo,
+                  así que revisamos disponibilidad inmediata para que no vayas solo ni firmes bajo presión.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item overflow-hidden rounded-[20px] border border-border-soft bg-white shadow-sm">
+              <button type="button" class="faq-trigger flex w-full items-center justify-between gap-4 px-5 py-5 text-left sm:px-6" aria-expanded="false">
+                <span class="font-heading text-lg font-extrabold text-brand-blue sm:text-xl">
+                  ¿Qué pasa si el ingeniero de la inmobiliaria dice que es normal?
+                </span>
+                <span class="faq-icon flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-base-bg text-brand-blue transition duration-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-content hidden border-t border-border-soft px-5 pb-5 pt-0 sm:px-6">
+                <p class="pt-5 text-sm leading-7 text-text-muted sm:text-base">
+                  Contamos con el respaldo técnico para sustentar por qué no lo es, basándonos en normas y buen criterio constructivo.
+                  Muchas veces ciertas fallas se intentan minimizar frente al cliente, y ahí es donde tener acompañamiento técnico cambia la conversación.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item overflow-hidden rounded-[20px] border border-border-soft bg-white shadow-sm">
+              <button type="button" class="faq-trigger flex w-full items-center justify-between gap-4 px-5 py-5 text-left sm:px-6" aria-expanded="false">
+                <span class="font-heading text-lg font-extrabold text-brand-blue sm:text-xl">
+                  ¿La garantía no basta?
+                </span>
+                <span class="faq-icon flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-base-bg text-brand-blue transition duration-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-content hidden border-t border-border-soft px-5 pb-5 pt-0 sm:px-6">
+                <p class="pt-5 text-sm leading-7 text-text-muted sm:text-base">
+                  La garantía no reemplaza el valor de una buena revisión antes de firmar. Detectar y observar a tiempo
+                  te da mayor claridad y más fuerza que descubrir un problema después, cuando ya entraste a una etapa de postventa más desgastante.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item overflow-hidden rounded-[20px] border border-border-soft bg-white shadow-sm">
+              <button type="button" class="faq-trigger flex w-full items-center justify-between gap-4 px-5 py-5 text-left sm:px-6" aria-expanded="false">
+                <span class="font-heading text-lg font-extrabold text-brand-blue sm:text-xl">
+                  ¿Atienden en todo Lima?
+                </span>
+                <span class="faq-icon flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-base-bg text-brand-blue transition duration-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" d="M12 5v14M5 12h14"/>
+                  </svg>
+                </span>
+              </button>
+              <div class="faq-content hidden border-t border-border-soft px-5 pb-5 pt-0 sm:px-6">
+                <p class="pt-5 text-sm leading-7 text-text-muted sm:text-base">
+                  Atendemos Lima Metropolitana según programación, ubicación y disponibilidad.
+                  Si tu entrega ya tiene fecha, te recomendamos escribirnos cuanto antes para revisar agenda.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-10 text-center lg:mt-12">
+            <a href="#contacto" class="btn-primary">
+              Quiero resolver mi caso
+            </a>
+            <p class="mt-4 text-sm font-medium text-text-muted sm:text-base">
+              Si tu entrega es próxima, escríbenos ahora para revisar disponibilidad.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- SECTION 11: FOOTER -->
+    <footer class="bg-brand-blue text-white" id="contacto">
+      <div class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <div class="grid gap-10 md:grid-cols-2 xl:grid-cols-4">
           <div>
-            <div class="tag tag-light">CTA principal</div>
-            <h2>No esperes a descubrir los problemas cuando ya hayas firmado.</h2>
-            <p>Agenda tu inspección y recibe tu departamento con más seguridad, más claridad y mejor capacidad de reclamo.</p>
-          </div>
-          <div class="btn-row">
-            <a class="btn btn-light" href="https://wa.me/51999999999?text=Hola%2C%20quiero%20agendar%20una%20inspecci%C3%B3n%20de%20departamento" target="_blank" rel="noopener">Hablar por WhatsApp</a>
-            <a class="btn btn-outline-light" href="#contacto">Solicitar cotización</a>
-          </div>
-        </div>
-      </div>
-    </section>
+            <div class="flex items-center gap-3">
+              <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-white text-brand-blue shadow-sm">
+                <span class="font-heading text-base font-extrabold tracking-wide">PTD</span>
+              </div>
+              <div class="leading-tight">
+                <p class="font-heading text-base font-extrabold text-white sm:text-lg">
+                  Protege tu Depa
+                </p>
+                <p class="text-xs font-medium text-white/70 sm:text-sm">
+                  Inspección técnica de entrega
+                </p>
+              </div>
+            </div>
 
-    <section class="section" id="contacto">
-      <div class="container">
-        <div class="tag">Contacto</div>
-        <h2>Solicita una cotización</h2>
-        <p class="lead">El formulario está conectado para abrir WhatsApp. Más adelante lo puedes conectar a correo, CRM o automatizaciones.</p>
+            <p class="mt-5 max-w-xs text-sm leading-7 text-white/75 sm:text-base">
+              Respaldo técnico para que no firmes tu entrega a ciegas y protejas tu inversión con mayor criterio.
+            </p>
+          </div>
 
-        <div class="contact-wrap">
-          <article class="contact-card">
-            <h3>Información de contacto</h3>
-            <ul class="list contact-list">
-              <li>WhatsApp: +51 999 999 999</li>
-              <li>Email: hola@protegetudepa.pe</li>
-              <li>Atención: Lima Metropolitana</li>
-              <li>Horario: Lun - Sáb / 8:00 a.m. - 7:00 p.m.</li>
+          <div>
+            <h3 class="font-heading text-lg font-extrabold text-white">
+              Enlaces rápidos
+            </h3>
+            <ul class="mt-5 space-y-3 text-sm text-white/75 sm:text-base">
+              <li><a href="#servicio" class="transition hover:text-white">Servicio</a></li>
+              <li><a href="#como-funciona" class="transition hover:text-white">Cómo funciona</a></li>
+              <li><a href="#hallazgos" class="transition hover:text-white">Hallazgos</a></li>
+              <li><a href="#nosotros" class="transition hover:text-white">Nosotros</a></li>
+              <li><a href="#faq" class="transition hover:text-white">FAQ</a></li>
             </ul>
-            <p class="small-note">Reemplaza estos datos por los tuyos antes de publicar.</p>
-          </article>
+          </div>
 
-          <article class="contact-card">
-            <form id="leadForm" class="lead-form">
-              <input type="text" name="nombre" placeholder="Nombre" required />
-              <input type="tel" name="telefono" placeholder="Teléfono / WhatsApp" required />
-              <input class="full" type="email" name="email" placeholder="Correo electrónico" />
-              <input type="text" name="distrito" placeholder="Distrito del proyecto" />
-              <select name="servicio">
-                <option value="">Servicio que te interesa</option>
-                <option>Inspección base</option>
-                <option>Inspección + informe</option>
-                <option>Reinspección</option>
-              </select>
-              <input type="text" name="metraje" placeholder="Metraje aproximado" />
-              <textarea class="full" name="mensaje" placeholder="Cuéntanos la fecha de entrega, proyecto y cualquier detalle importante"></textarea>
-              <button class="btn btn-primary full" type="submit">Enviar solicitud</button>
-            </form>
-            <p class="small-note" id="formMessage"></p>
-          </article>
-        </div>
-      </div>
-    </section>
-  </main>
+          <div>
+            <h3 class="font-heading text-lg font-extrabold text-white">
+              Contacto
+            </h3>
+            <ul class="mt-5 space-y-3 text-sm text-white/75 sm:text-base">
+              <li>
+                <a href="https://wa.me/51999999999" target="_blank" rel="noopener noreferrer" class="transition hover:text-white">
+                  WhatsApp
+                </a>
+              </li>
+              <li>
+                <a href="mailto:correo@protegetudepa.com" class="transition hover:text-white">
+                  correo@protegetudepa.com
+                </a>
+              </li>
+            </ul>
+          </div>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <div class="brand footer-brand">
-          <img src="logo-protege-tu-depa.png" alt="Logo Protege Tu Depa" class="brand-logo" />
-          <div class="brand-text">
-            <strong>Protege Tu Depa</strong>
-            <span>Inspección de departamentos nuevos en Lima</span>
+          <div>
+            <h3 class="font-heading text-lg font-extrabold text-white">
+              Cobertura
+            </h3>
+            <p class="mt-5 text-sm leading-7 text-white/75 sm:text-base">
+              Lima Metropolitana
+            </p>
+
+            <div class="mt-6 rounded-2xl border border-white/10 bg-white/8 p-4">
+              <p class="text-xs font-semibold uppercase tracking-[0.12em] text-white/65">
+                Atención
+              </p>
+              <p class="mt-2 text-sm leading-6 text-white/80">
+                Escríbenos con tu fecha de entrega para revisar disponibilidad.
+              </p>
+            </div>
           </div>
         </div>
-        <p>Landing pensada para conversión, claridad comercial y crecimiento posterior con SEO local.</p>
-      </div>
-      <div>
-        <h3>Enlaces</h3>
-        <div class="footer-links">
-          <a href="#inicio">Inicio</a>
-          <a href="#servicios">Servicios</a>
-          <a href="#proceso">Cómo trabajamos</a>
-          <a href="#contacto">Contacto</a>
+
+        <div class="mt-10 border-t border-white/10 pt-6">
+          <p class="text-center text-sm text-white/60">
+            © <span id="currentYear"></span> Protege tu Depa. Todos los derechos reservados.
+          </p>
         </div>
       </div>
-      <div>
-        <h3>Contacto</h3>
-        <div class="footer-links">
-          <a href="mailto:hola@protegetudepa.pe">hola@protegetudepa.pe</a>
-          <a href="https://wa.me/51999999999" target="_blank" rel="noopener">WhatsApp</a>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-  <a class="wa-float" href="https://wa.me/51999999999?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20inspecci%C3%B3n%20de%20departamentos" target="_blank" rel="noopener" aria-label="WhatsApp">✆</a>
+<!-- Botón flotante de WhatsApp -->
+<a
+  id="floatingWhatsapp"
+  href="https://wa.me/51999999999?text=Hola,%20estoy%20por%20recibir%20mi%20departamento%20y%20quiero%20coordinar%20una%20inspecci%C3%B3n%20antes%20de%20firmar%20la%20entrega."
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Hablar por WhatsApp"
+  class="fixed bottom-4 right-4 z-[60] inline-flex items-center gap-3 rounded-full bg-whatsapp px-4 py-3 text-sm font-semibold text-white shadow-[0_10px_30px_rgba(0,0,0,0.18)] transition-all duration-300 hover:brightness-95 sm:bottom-6 sm:right-6 sm:rounded-[16px] sm:px-5"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M19.05 4.91A9.82 9.82 0 0 0 12.07 2C6.65 2 2.24 6.4 2.24 11.82c0 1.74.45 3.44 1.31 4.94L2 22l5.39-1.41a9.78 9.78 0 0 0 4.68 1.19h.01c5.42 0 9.82-4.4 9.82-9.82a9.78 9.78 0 0 0-2.85-7.05Zm-6.98 15.2h-.01a8.16 8.16 0 0 1-4.16-1.14l-.3-.18-3.2.84.86-3.12-.2-.32a8.18 8.18 0 0 1-1.26-4.37c0-4.51 3.67-8.18 8.19-8.18 2.18 0 4.22.85 5.77 2.4a8.11 8.11 0 0 1 2.39 5.78c0 4.51-3.68 8.19-8.18 8.19Zm4.49-6.13c-.25-.13-1.47-.72-1.7-.8-.23-.08-.39-.13-.55.13-.16.25-.63.8-.77.96-.14.17-.29.19-.54.07-.25-.13-1.04-.38-1.98-1.22-.73-.65-1.22-1.45-1.36-1.69-.14-.25-.01-.38.11-.5.11-.11.25-.29.38-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.55-1.33-.76-1.83-.2-.47-.4-.41-.55-.42h-.47c-.17 0-.43.06-.65.31-.22.25-.86.84-.86 2.05 0 1.2.88 2.36 1 2.53.13.17 1.73 2.65 4.18 3.71.58.25 1.03.4 1.39.52.58.18 1.11.15 1.53.09.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.22-.16-.47-.29Z"/>
+  </svg>
 
-  <script src="script.js"></script>
-</body>
+  <span class="sm:hidden">WhatsApp</span>
+  <span class="hidden sm:inline">Hablar por WhatsApp</span>
+</a>
+
+
+    <!-- Scripts -->
+    <script>
+      // Mobile menu
+      const mobileMenuButton = document.getElementById("mobileMenuButton");
+      const mobileMenu = document.getElementById("mobileMenu");
+      const menuOpenIcon = document.getElementById("menuOpenIcon");
+      const menuCloseIcon = document.getElementById("menuCloseIcon");
+      const mobileMenuLinks = document.querySelectorAll("#mobileMenu a");
+
+      function toggleMobileMenu() {
+        const isOpen = !mobileMenu.classList.contains("hidden");
+
+        if (isOpen) {
+          mobileMenu.classList.add("hidden");
+          menuOpenIcon.classList.remove("hidden");
+          menuCloseIcon.classList.add("hidden");
+          mobileMenuButton.setAttribute("aria-expanded", "false");
+        } else {
+          mobileMenu.classList.remove("hidden");
+          menuOpenIcon.classList.add("hidden");
+          menuCloseIcon.classList.remove("hidden");
+          mobileMenuButton.setAttribute("aria-expanded", "true");
+        }
+      }
+
+      mobileMenuButton.addEventListener("click", toggleMobileMenu);
+
+      mobileMenuLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.add("hidden");
+          menuOpenIcon.classList.remove("hidden");
+          menuCloseIcon.classList.add("hidden");
+          mobileMenuButton.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      // FAQ accordion
+      document.querySelectorAll(".faq-trigger").forEach((button) => {
+        button.addEventListener("click", () => {
+          const item = button.closest(".faq-item");
+          const content = item.querySelector(".faq-content");
+          const icon = item.querySelector(".faq-icon svg");
+          const isOpen = button.getAttribute("aria-expanded") === "true";
+
+          document.querySelectorAll(".faq-trigger").forEach((otherButton) => {
+            otherButton.setAttribute("aria-expanded", "false");
+          });
+
+          document.querySelectorAll(".faq-content").forEach((otherContent) => {
+            otherContent.classList.add("hidden");
+          });
+
+          document.querySelectorAll(".faq-icon svg").forEach((otherIcon) => {
+            otherIcon.style.transform = "rotate(0deg)";
+          });
+
+          if (!isOpen) {
+            button.setAttribute("aria-expanded", "true");
+            content.classList.remove("hidden");
+            icon.style.transform = "rotate(45deg)";
+          }
+        });
+      });
+
+      // Ocultar botón flotante al entrar al footer/contacto
+      const floatingWhatsapp = document.getElementById("floatingWhatsapp");
+      const footerSection = document.getElementById("contacto");
+
+      if (floatingWhatsapp && footerSection) {
+        const footerObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                floatingWhatsapp.classList.add("opacity-0", "translate-y-4", "pointer-events-none");
+              } else {
+                floatingWhatsapp.classList.remove("opacity-0", "translate-y-4", "pointer-events-none");
+              }
+            });
+          },
+          {
+            root: null,
+            threshold: 0.15,
+          }
+        );
+
+        footerObserver.observe(footerSection);
+      }
+
+      // Footer year
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
